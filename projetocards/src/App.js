@@ -5,7 +5,7 @@ import Separador from "./components/Separador/Index.js";
 const App = () => {
   return (
     <div>
-      <Separador />
+      <Separador separador="Backend" />
       <CardDiv />
     </div>
   );
