@@ -1,0 +1,13 @@
+/* O que será escrito */
+.separador {
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 1rem;
+}
+
+/* Responsivo de tamanho */
+@media screen and (min-width: 500px) {
+  .separador {
+    font-size: 1.2rem;
+  }
+}
