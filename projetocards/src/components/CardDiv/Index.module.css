@@ -1,0 +1,9 @@
+/* Card div
+Container que vai organizar as Cartas */
+
+@media screen and (min-width: 500px) {
+  .cardDiv {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
