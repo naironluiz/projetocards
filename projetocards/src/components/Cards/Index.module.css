@@ -1,3 +1,5 @@
+/* Toda essa primeira parte de CSS é feita para o mobilefirst */
+
 /* Cores que serão usadas */
 :root {
   --cardbg: rgba(229, 229, 229, 0.45);
@@ -8,13 +10,14 @@
 .cardWrapper {
   display: flex;
   flex-direction: column;
-  margin: 1.1rem 0 1.1rem 1.1rem;
+  margin: 1.1rem 0.5rem 1.1rem 1.1rem;
 }
 
 /* Container das informações dos cartões */
 .cardContainer {
   display: flex;
   background-color: var(--cardbg);
+  gap: 1.5rem;
   /* Sombra */
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
   max-width: 499px;
@@ -73,4 +76,42 @@
 .email {
   font-size: 0.8rem;
   font-weight: 600;
+}
+
+/* Responsivo para Tablet */
+
+@media screen and (min-width: 500px) {
+  .cardWrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .cardContainer {
+    margin-top: 2.5 rem;
+    display: block;
+    width: 288px;
+    height: 353px;
+  }
+
+  .profileImg {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .infoContainer {
+    justify-content: center;
+    text-align: center;
+  }
+  .nome {
+    font-size: 24px;
+  }
+  .cargo {
+    width: inherit;
+    font-size: 1rem;
+  }
+
+  .numeroTelefone,
+  .email {
+    font-size: 1rem;
+  }
 }
