@@ -1,0 +1,76 @@
+/* Cores que serão usadas */
+:root {
+  --cardbg: rgba(229, 229, 229, 0.45);
+  --segundacor: rgba(0, 0, 0, 0.5);
+}
+
+/* Wrapper dos cartões */
+.cardWrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 1.1rem 0 1.1rem 1.1rem;
+}
+
+/* Container das informações dos cartões */
+.cardContainer {
+  display: flex;
+  background-color: var(--cardbg);
+  /* Sombra */
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+  max-width: 499px;
+  border-radius: 5%;
+}
+
+/* Foto */
+.profileImg {
+  /* Mudar para rem depois */
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin: 1.2rem 0;
+}
+
+/* Botão de Menu */
+.menuBtn {
+  width: 1rem;
+  height: 2rem;
+  padding: 0.5rem 0.5rem;
+  margin: -0.5rem 0rem;
+  cursor: pointer;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  border: none;
+  background: none;
+}
+
+/* Container com as informações escritas do usuario */
+
+.infoContainer {
+  margin: 2rem 0rem;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  height: 104px;
+}
+
+/* Nome */
+
+.nome {
+  font-size: 0.9rem;
+}
+
+/* Cargo */
+.cargo {
+  color: var(--segundacor);
+  width: 62px;
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+
+/* Telefone e email */
+
+.numeroTelefone,
+.email {
+  font-size: 0.8rem;
+  font-weight: 600;
+}
