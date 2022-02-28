@@ -32,8 +32,8 @@
   transition: 0.5s;
 }
 .cardContainer:hover {
-  background-color: var(--laranjasecundario);
-  color: var(--terceira);
+  background-color: var(--cardbghover);
+  color: var(--fonthover);
 }
 
 /* Foto */
@@ -79,7 +79,6 @@
 
 /* Cargo */
 .cargo {
-  color: var(--segundacor);
   width: 62px;
   font-weight: 700;
   font-size: 1rem;
