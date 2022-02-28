@@ -89,6 +89,17 @@
   font-weight: 600;
 }
 
+/* hover sublinhado no telefone e email */
+.numeroTelefone:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.email:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* Icone de telefone */
 .numeroTelefone::before {
   content: "";
   display: block;
@@ -100,6 +111,7 @@
   margin-right: 6px;
 }
 
+/* icone de email */
 .email::before {
   content: "";
   display: block;
