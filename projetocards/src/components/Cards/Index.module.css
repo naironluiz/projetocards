@@ -102,7 +102,7 @@
   content: "";
   display: block;
   float: left;
-  background: url("../../icons/telefone-icon.png");
+  background: url("../../icons/phone-icon.png");
   width: 16px;
   height: 16px;
   margin-top: 3px;
@@ -193,6 +193,6 @@
     content: "";
     display: inline-block;
     float: none;
-    transform: translate(0px, 30%);
+    transform: translate(0px, 20%);
   }
 }
