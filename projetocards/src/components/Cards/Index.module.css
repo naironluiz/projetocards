@@ -60,6 +60,10 @@
 .active {
   background-color: red;
 }
+
+.listaOpc {
+  opacity: 100;
+}
 /* Container com as informações escritas do usuario */
 
 .infoContainer {
