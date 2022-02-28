@@ -5,6 +5,8 @@
   --cardbg: #e5e5e573;
   --segundacor: rgba(0, 0, 0, 0.5);
   --terceiracor: rgba(0, 0, 0, 0.4);
+  --laranjasecundario: #f5652f;
+  --terceira: #ebdf2d;
 }
 
 /* Wrapper dos cartões */
@@ -26,7 +28,8 @@
   transition: 0.5s;
 }
 .cardContainer:hover {
-  background-color: var(--terceiracor);
+  background-color: var(--laranjasecundario);
+  color: var(--terceira);
 }
 
 /* Foto */
@@ -51,7 +54,7 @@
   background: none;
 }
 .menuBtn:hover {
-  color: red;
+  color: var(--cardbg);
 }
 
 /* Container com as informações escritas do usuario */
@@ -67,7 +70,7 @@
 /* Nome */
 
 .nome {
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 /* Cargo */
@@ -75,14 +78,14 @@
   color: var(--segundacor);
   width: 62px;
   font-weight: 700;
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 
 /* Telefone e email */
 
 .numeroTelefone,
 .email {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   font-weight: 600;
 }
 
