@@ -89,6 +89,11 @@
   font-weight: 600;
 }
 
+.numeroTelefone::before {
+  content: "";
+  background: url(https://www.flaticon.com/free-icon/call_483947?term=telphone&page=1&position=3&page=1&position=3&related_id=483947&origin=search);
+}
+
 /* Responsivo para Tablet */
 
 @media screen and (min-width: 500px) {
