@@ -2,11 +2,14 @@
 
 /* Cores que serão usadas */
 :root {
-  --cardbg: #e5e5e573;
+  --cardbg: #010d00;
   --segundacor: rgba(0, 0, 0, 0.5);
   --terceiracor: rgba(0, 0, 0, 0.4);
   --laranjasecundario: #f5652f;
   --terceira: #ebdf2d;
+  --font: #8c8987;
+  --cardbghover: #8c8987;
+  --fonthover: #010d00;
 }
 
 /* Wrapper dos cartões */
@@ -20,6 +23,7 @@
 .cardContainer {
   display: flex;
   background-color: var(--cardbg);
+  color: var(--font);
   gap: 1.5rem;
   /* Sombra */
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
