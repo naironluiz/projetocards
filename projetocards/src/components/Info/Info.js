@@ -17,7 +17,7 @@ const Info = () => {
         nome="Nairon Luiz"
         cargo="Frontend Developer"
         numeroTelefone="(61)9-98454560"
-        email="nairon.luiz555555555@gmail.com"
+        email="nairon.luiz55555@gmail.com"
       />
 
       <Cards
