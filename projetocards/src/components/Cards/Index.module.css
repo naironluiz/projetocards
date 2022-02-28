@@ -165,7 +165,7 @@
 
   /* centralizar considerando o tamanho do icone */
   .email {
-    margin-right: 16px;
+    text-align: center;
   }
 
   .email::before {
