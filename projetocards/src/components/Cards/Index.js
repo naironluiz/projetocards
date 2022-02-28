@@ -1,5 +1,7 @@
 import styles from "./Index.module.css";
+import AtivarBotao from "./Botao";
 
+import React from "react";
 const Cards = (props) => {
   return (
     /* Container onde irão ficar todos os cartões */
@@ -7,7 +9,16 @@ const Cards = (props) => {
       {/* Container especifico dos cartões e tudo dentro deles */}
       <div className={styles.cardContainer}>
         {/* Botão de menu */}
-        <div className={styles.menuBtn}>...</div>
+        <AtivarBotao />
+        {/* Lista de botões do menu */}
+        <ul className={styles.listaOpc}>
+          <li>Alterar Foto</li>
+          <li>Mudar Nome</li>
+          <li>Mudar Cargo</li>
+          <li>Mudar Telefone</li>
+          <li>Mudar Email</li>
+        </ul>
+
         {/* Foto de perfil */}
         <img src={props.img} alt="" className={styles.profileImg} />
         {/* Container com as informações */}
@@ -15,7 +26,7 @@ const Cards = (props) => {
           {/* Nome */}
           <h1 className={styles.nome}>{props.nome}</h1>
           {/* Cargo */}
-
+          <div className="teste"></div>
           <h3 className={styles.cargo}>{props.cargo}</h3>
           {/* Numero de Telefone */}
 
