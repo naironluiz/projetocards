@@ -2,8 +2,9 @@
 
 /* Cores que serão usadas */
 :root {
-  --cardbg: rgba(229, 229, 229, 0.45);
+  --cardbg: #e5e5e573;
   --segundacor: rgba(0, 0, 0, 0.5);
+  --terceiracor: rgba(0, 0, 0, 0.4);
 }
 
 /* Wrapper dos cartões */
@@ -22,6 +23,10 @@
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
   max-width: 499px;
   border-radius: 5%;
+  transition: 0.5s;
+}
+.cardContainer:hover {
+  background-color: var(--terceiracor);
 }
 
 /* Foto */
