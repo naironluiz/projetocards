@@ -59,7 +59,7 @@
 /* Container com as informações escritas do usuario */
 
 .infoContainer {
-  margin: 2rem 0rem;
+  margin: 1.3rem 0rem;
   display: flex;
   flex-direction: column;
   gap: 8px;
