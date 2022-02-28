@@ -11,13 +11,6 @@ const Cards = (props) => {
         {/* Botão de menu */}
         <AtivarBotao />
         {/* Lista de botões do menu */}
-        <ul className={styles.listaOpc}>
-          <li>Alterar Foto</li>
-          <li>Mudar Nome</li>
-          <li>Mudar Cargo</li>
-          <li>Mudar Telefone</li>
-          <li>Mudar Email</li>
-        </ul>
 
         {/* Foto de perfil */}
         <img src={props.img} alt="" className={styles.profileImg} />

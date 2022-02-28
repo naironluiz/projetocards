@@ -2,9 +2,13 @@
 
 /* Cores que serão usadas */
 :root {
+  /* Cores */
   --cardbg: #f2f2f2;
   --font: #262ebf;
   --sombra: #7e82d9;
+
+  /* Tamanho do Card */
+  --cardwidth: 499px;
 }
 
 /* Wrapper dos cartões */
@@ -17,12 +21,12 @@
 /* Container das informações dos cartões */
 .cardContainer {
   display: flex;
+  max-width: var(--cardwidth);
   background-color: var(--cardbg);
   color: var(--font);
   gap: 1.5rem;
   /* Sombra */
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
-  max-width: 499px;
   border-radius: 5%;
   transition: 0.5s;
 }
@@ -57,13 +61,25 @@
   color: var(--cardbg);
 }
 
-.active {
-  background-color: red;
+/* Lista de opções */
+.listaOpc {
+  display: none;
+  position: absolute;
+  font-size: 1rem;
+  width: 499px;
+  margin-left: 3rem;
+  background-color: #7e82d9;
+  z-index: 2;
+}
+.menuBtn.active .listaOpc {
+  display: block;
 }
 
-.listaOpc {
-  opacity: 100;
+/* Ul testar depois */
+li {
+  border-bottom: 1px solid var(--font);
 }
+
 /* Container com as informações escritas do usuario */
 
 .infoContainer {
