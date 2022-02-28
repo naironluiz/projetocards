@@ -2,14 +2,9 @@
 
 /* Cores que serão usadas */
 :root {
-  --cardbg: #010d00;
-  --segundacor: rgba(0, 0, 0, 0.5);
-  --terceiracor: rgba(0, 0, 0, 0.4);
-  --laranjasecundario: #f5652f;
-  --terceira: #ebdf2d;
-  --font: #8c8987;
-  --cardbghover: #8c8987;
-  --fonthover: #010d00;
+  --cardbg: #f2f2f2;
+  --font: #262ebf;
+  --sombra: #7e82d9;
 }
 
 /* Wrapper dos cartões */
@@ -32,8 +27,8 @@
   transition: 0.5s;
 }
 .cardContainer:hover {
-  background-color: var(--cardbghover);
-  color: var(--fonthover);
+  background-color: var(--font);
+  color: var(--cardbg);
 }
 
 /* Foto */
@@ -64,7 +59,7 @@
 /* Container com as informações escritas do usuario */
 
 .infoContainer {
-  margin: 1.3rem 0rem;
+  margin: 2rem 0rem;
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -138,6 +133,10 @@
     display: block;
     width: 288px;
     height: 353px;
+  }
+
+  .cardContainer:hover {
+    box-shadow: 20px 2px 2px var(--sombra);
   }
 
   .menuBtn {
