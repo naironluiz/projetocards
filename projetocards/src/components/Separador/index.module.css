@@ -1,13 +1,20 @@
+:root {
+  --font: #262ebf;
+}
+
 /* O que será escrito */
 .separador {
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: 700;
   padding: 1rem;
+  color: var(--font);
+  letter-spacing: 1px;
+  border-bottom: 3px solid var(--font);
 }
 
 /* Responsivo de tamanho */
 @media screen and (min-width: 500px) {
   .separador {
-    font-size: 1.2rem;
+    font-size: 2rem;
   }
 }
