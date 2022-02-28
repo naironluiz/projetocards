@@ -60,7 +60,7 @@
 /* Container com as informações escritas do usuario */
 
 .infoContainer {
-  margin: 2rem 0rem;
+  margin: 1.3rem 0rem;
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -131,7 +131,7 @@
   }
 
   .cardContainer {
-    margin-top: 2.5 rem;
+    margin-top: 0.5rem;
     display: block;
     width: 288px;
     height: 353px;
@@ -142,14 +142,20 @@
     font-size: 2.2rem;
   }
 
+  /* Aumentar o tamanho da imagem */
   .profileImg {
+    width: 150px;
+    height: 150px;
     display: block;
     margin: 0 auto;
   }
 
+  /* Diminuir a margem entre a imagem e o container de info */
+
   .infoContainer {
     justify-content: center;
     text-align: center;
+    margin-top: 1rem;
   }
   .nome {
     font-size: 24px;
@@ -162,6 +168,7 @@
   .numeroTelefone,
   .email {
     font-size: 1rem;
+    margin-top: 0.1rem;
   }
   /* centralizar considerando o tamanho do icone */
   .numeroTelefone {
@@ -184,6 +191,6 @@
     content: "";
     display: inline-block;
     float: none;
-    transform: translate(0px, 25%);
+    transform: translate(0px, 30%);
   }
 }
