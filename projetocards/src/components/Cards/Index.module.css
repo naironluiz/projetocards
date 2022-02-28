@@ -93,7 +93,7 @@
   content: "";
   display: block;
   float: left;
-  background: url("../../icons/call3.png");
+  background: url("../../icons/telefone-icon.png");
   width: 16px;
   height: 16px;
   margin-top: 3px;
@@ -104,7 +104,7 @@
   content: "";
   display: block;
   float: left;
-  background: url("../../icons/envelope.png");
+  background: url("../../icons/email-icon.png");
   width: 16px;
   height: 16px;
   margin-right: 6px;
@@ -160,11 +160,18 @@
     content: "";
     display: inline-block;
     float: none;
+    transform: translate(0px, 25%);
+  }
+
+  /* centralizar considerando o tamanho do icone */
+  .email {
+    margin-right: 16px;
   }
 
   .email::before {
     content: "";
     display: inline-block;
     float: none;
+    transform: translate(0px, 25%);
   }
 }
