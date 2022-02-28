@@ -91,7 +91,11 @@
 
 .numeroTelefone::before {
   content: "";
-  background: url(https://www.flaticon.com/free-icon/call_483947?term=telphone&page=1&position=3&page=1&position=3&related_id=483947&origin=search);
+  display: block;
+  float: left;
+  background: url("../../icons/phone.png") no-repeat;
+  width: 20px;
+  height: 20px;
 }
 
 /* Responsivo para Tablet */
