@@ -93,9 +93,11 @@
   content: "";
   display: block;
   float: left;
-  background: url("../../icons/phone.png") no-repeat;
-  width: 20px;
-  height: 20px;
+  background: url("../../icons/call3.png");
+  width: 16px;
+  height: 16px;
+  margin-top: 3px;
+  margin-right: 6px;
 }
 
 /* Responsivo para Tablet */
@@ -138,5 +140,16 @@
   .numeroTelefone,
   .email {
     font-size: 1rem;
+  }
+
+  .numeroTelefone::before {
+    content: "";
+    display: inline-block;
+    float: none;
+    background: url("../../icons/call2.png");
+    width: 1rem;
+    height: 1rem;
+    margin-top: 3px;
+    margin-right: 6px;
   }
 }
