@@ -29,6 +29,7 @@
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
   border-radius: 5%;
   transition: 0.5s;
+  z-index: 1;
 }
 .cardContainer:hover {
   background-color: var(--font);
@@ -63,21 +64,33 @@
 
 /* Lista de opções */
 .listaOpc {
-  display: none;
+  display: block;
   position: absolute;
   font-size: 1rem;
-  width: 499px;
+  width: 300px;
   margin-left: 3rem;
-  background-color: #7e82d9;
-  z-index: 2;
+  background-color: #7e83d9f3;
+  margin-top: -2rem;
+  opacity: 0;
+  z-index: 0;
+  transition: 0.5s;
+  cursor: default;
 }
 .menuBtn.active .listaOpc {
   display: block;
+  opacity: 100;
+  z-index: 2;
+  cursor: pointer;
 }
 
-/* Ul testar depois */
+/* li testar depois */
 li {
   border-bottom: 1px solid var(--font);
+  margin: 0.5rem;
+}
+
+li:hover {
+  font-weight: 800;
 }
 
 /* Container com as informações escritas do usuario */
@@ -88,6 +101,7 @@ li {
   flex-direction: column;
   gap: 8px;
   height: 104px;
+  z-index: 1;
 }
 
 /* Nome */
