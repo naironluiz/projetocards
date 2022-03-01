@@ -1,4 +1,4 @@
-import Info from "./components/Info/Info";
+import Frontend from "./components/Info/Frontend";
 import CardDiv from "./components/CardDiv/Index";
 import Separador from "./components/Separador/Index.js";
 import Backend from "./components/Info/Backend";
@@ -8,7 +8,7 @@ const App = () => {
   return (
     <div>
       <Separador separador="Frontend" />
-      <CardDiv />
+      <Frontend />
       <Separador separador="Backend" />
       <Backend />
       <Separador separador="Design UX/UI" />

@@ -1,5 +1,5 @@
 import styles from "./Index.module.css";
-import Info from "../Info/Info";
+import Info from "../Info/Frontend";
 import Backend from "../Info/Backend";
 
 const CardDiv = () => {
