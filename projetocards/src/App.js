@@ -1,5 +1,4 @@
 import Frontend from "./components/Info/Frontend";
-import CardDiv from "./components/CardDiv/Index";
 import Separador from "./components/Separador/Index.js";
 import Backend from "./components/Info/Backend";
 import Uiux from "./components/Info/Uiux";
