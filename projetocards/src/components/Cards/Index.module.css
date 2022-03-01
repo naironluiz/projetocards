@@ -233,4 +233,10 @@ li:hover {
     float: none;
     transform: translate(0px, 20%);
   }
+
+  /* Botão e lista de menu */
+
+  .listaOpc {
+    width: 200px;
+  }
 }
