@@ -8,7 +8,7 @@ const Backend = () => {
       <Cards
         img="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
         nome="Rebecca Luiz Silva"
-        cargo="Frontend Developer"
+        cargo="Backend Developer"
         numeroTelefone="(61)9-955565654"
         email="reb.luiz@gmail.com"
       />
@@ -16,7 +16,7 @@ const Backend = () => {
       <Cards
         img="https://images.unsplash.com/photo-1533738363-b7f9aef128ce?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
         nome="João Carlos"
-        cargo="Frontend Developer"
+        cargo="Backend Developer"
         numeroTelefone="(11)9-12345678"
         email="jc.553@hotmail.com"
       />
