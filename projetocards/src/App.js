@@ -7,6 +7,10 @@ const App = () => {
     <div>
       <Separador separador="Frontend" />
       <CardDiv />
+      <Separador separador="Backend" />
+      <CardDiv />
+      <Separador separador="Design UX/UI" />
+      <CardDiv />
     </div>
   );
 };
