@@ -1,5 +1,6 @@
 import Cards from "../Cards/Index.js";
 import styles from "./css/Index.module.css";
+import React from "react";
 
 /* Função que vai preencher dinamicamente as informações dos cartões de Backend */
 const Backend = () => {
