@@ -6,25 +6,25 @@ const Info = () => {
     <div>
       <Cards
         img="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
-        nome="Nairon Luiz"
+        nome="Rebecca Luiz"
         cargo="Frontend Developer"
-        numeroTelefone="(61)9-98454560"
-        email="nairon.luiz@gmail.com"
+        numeroTelefone="(61)9-955565654"
+        email="reb.luiz@gmail.com"
       />
 
       <Cards
         img="https://images.unsplash.com/photo-1533738363-b7f9aef128ce?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
-        nome="Nairon Luiz"
+        nome="João Carlos"
         cargo="Frontend Developer"
-        numeroTelefone="(61)9-98454560"
+        numeroTelefone="(11)9-12345678"
         email="nairon.luiz55555@gmail.com"
       />
 
       <Cards
-        img="https://media.discordapp.net/attachments/935611068934418472/944197874185547786/20220218_084447.jpg?width=507&height=676"
-        nome="Nairon Luiz"
+        img="../img/pessoa1.jpg"
+        nome="Thancredo Águas"
         cargo="Frontend Developer"
-        numeroTelefone="(61)9-98454560"
+        numeroTelefone="(61)9-12345678"
         email="nairon.luiz@gmail.com"
       />
 
@@ -32,7 +32,7 @@ const Info = () => {
         img="https://media.discordapp.net/attachments/935611068934418472/944197874185547786/20220218_084447.jpg?width=507&height=676"
         nome="Nairon Luiz"
         cargo="Frontend Developer"
-        numeroTelefone="(61)9-98454560"
+        numeroTelefone="(61)9-12345678"
         email="nairon.luiz@gmail.com"
       />
     </div>
