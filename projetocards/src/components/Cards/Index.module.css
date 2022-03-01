@@ -70,8 +70,10 @@
   font-size: 1rem;
   width: 18.75rem;
   margin-left: 3rem;
-  background-color: #7e83d9f3;
   margin-top: -2rem;
+
+  border-radius: 5px;
+  background-color: #7e83d9f3;
   opacity: 0;
   z-index: 0;
   transition: 0.5s;
