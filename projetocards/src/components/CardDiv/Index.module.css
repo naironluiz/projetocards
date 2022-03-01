@@ -1,5 +1,4 @@
-/* Card div
-Container que vai organizar as Cartas */
+/*Container que vai organizar as Cartas */
 
 /* Quando o tamanho da tela mudar, o flex wrap vai encaixar as cartas  */
 @media screen and (min-width: 500px) {
