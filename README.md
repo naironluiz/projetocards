@@ -3,7 +3,7 @@
 Um projeto de cartões de profile e usuário criado e estilizado no React com foco em apresentar os dados de funcionários, separadores para fácilitar mais a navegação. e um botão que no futuro poderia dar a opção de alterar esses dados. O projeto todo foi criado mobilefirst.
 
 # Preview
-https://naironluiz.github.io/projetocards/
+<a href="https://naironluiz.github.io/projetocards/ " target="_blank">Aqui</a>
 # Instalação
 
 1. Clonar o projeto do github.
