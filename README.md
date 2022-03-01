@@ -7,4 +7,5 @@ Um projeto de cartões de profile e usuário criado e estilizado no React com fo
 # Instalação
 
 1. Clonar o projeto do github.
-2. Abrir com o comando npm install
+2. Instalar o npm
+3. Rodar com npm start.
