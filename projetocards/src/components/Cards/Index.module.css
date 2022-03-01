@@ -96,10 +96,10 @@ li:hover {
 /* Container com as informações escritas do usuario */
 
 .infoContainer {
-  margin: 1.3rem 0rem;
+  margin: 1rem 0rem;
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 0.3rem;
   height: 104px;
   z-index: 1;
 }
@@ -112,9 +112,10 @@ li:hover {
 
 /* Cargo */
 .cargo {
-  width: 62px;
-  font-weight: 700;
+  width: 150px;
+  font-weight: 600;
   font-size: 1rem;
+  margin-top: -0.3rem;
 }
 
 /* Telefone e email */
@@ -123,6 +124,12 @@ li:hover {
 .email {
   font-size: 0.9rem;
   font-weight: 600;
+}
+
+/* Evitar quebra de container por email */
+.email {
+  max-width: 230px;
+  overflow-wrap: break-word;
 }
 
 /* hover sublinhado no telefone e email */
