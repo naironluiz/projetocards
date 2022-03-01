@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/projetocards/static/css/main.acd5b3c8.css",
+    "main.js": "/projetocards/static/js/main.57d00da8.js",
+    "index.html": "/projetocards/index.html",
+    "main.acd5b3c8.css.map": "/projetocards/static/css/main.acd5b3c8.css.map",
+    "main.57d00da8.js.map": "/projetocards/static/js/main.57d00da8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.acd5b3c8.css",
+    "static/js/main.57d00da8.js"
+  ]
+}
