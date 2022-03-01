@@ -1,5 +1,5 @@
 import Cards from "../Cards/Index.js";
-import styles from "./Index.module.css";
+import styles from "./css/Index.module.css";
 /* Função que vai preencher dinamicamente as informações dos cartões */
 const Frontend = () => {
   return (
