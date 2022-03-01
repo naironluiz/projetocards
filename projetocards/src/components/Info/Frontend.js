@@ -1,7 +1,7 @@
 import Cards from "../Cards/Index.js";
 
 /* Função que vai preencher dinamicamente as informações dos cartões */
-const Info = () => {
+const Frontend = () => {
   return (
     <div>
       <Cards
@@ -39,4 +39,4 @@ const Info = () => {
   );
 };
 
-export default Info;
+export default Frontend;
