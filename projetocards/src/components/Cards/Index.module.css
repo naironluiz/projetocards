@@ -39,8 +39,9 @@
 /* Foto */
 .profileImg {
   /* Mudar para rem depois */
-  width: 120px;
-  height: 120px;
+  width: 7.5rem;
+  height: 7.5rem;
+  /* Deixando a imagem focada no centro */
   clip-path: circle(60px at center);
   margin: 1.2rem 0;
   object-fit: cover;
@@ -67,7 +68,7 @@
   display: block;
   position: absolute;
   font-size: 1rem;
-  width: 300px;
+  width: 18.75rem;
   margin-left: 3rem;
   background-color: #7e83d9f3;
   margin-top: -2rem;
@@ -83,12 +84,13 @@
   cursor: pointer;
 }
 
-/* li testar depois */
+/* adicionando margem e uma borda de fundo pra cada elemento da lista */
 li {
   border-bottom: 1px solid var(--font);
   margin: 0.5rem;
 }
 
+/* negrito para o hover */
 li:hover {
   font-weight: 800;
 }
@@ -100,7 +102,7 @@ li:hover {
   display: flex;
   flex-direction: column;
   gap: 0.3rem;
-  height: 104px;
+  height: 6.5rem;
   z-index: 1;
 }
 
@@ -112,7 +114,7 @@ li:hover {
 
 /* Cargo */
 .cargo {
-  width: 150px;
+  width: 4.688rem;
   font-weight: 600;
   font-size: 1rem;
   margin-top: -0.3rem;
@@ -128,7 +130,7 @@ li:hover {
 
 /* Evitar quebra de container por email */
 .email {
-  max-width: 230px;
+  max-width: 14.375rem;
   overflow-wrap: break-word;
 }
 
@@ -148,8 +150,8 @@ li:hover {
   display: block;
   float: left;
   background: url("../../icons/phone-icon.png");
-  width: 16px;
-  height: 16px;
+  width: 1rem;
+  height: 1rem;
   margin-top: 3px;
   margin-right: 6px;
 }
@@ -160,8 +162,8 @@ li:hover {
   display: block;
   float: left;
   background: url("../../icons/email-icon.png");
-  width: 16px;
-  height: 16px;
+  width: 1rem;
+  height: 1rem;
   margin-right: 6px;
 }
 
@@ -176,8 +178,8 @@ li:hover {
   .cardContainer {
     margin-top: 0.5rem;
     display: block;
-    width: 288px;
-    height: 353px;
+    width: 18rem;
+    height: 22.063rem;
   }
 
   .cardContainer:hover {
@@ -191,8 +193,8 @@ li:hover {
 
   /* Aumentar o tamanho da imagem */
   .profileImg {
-    width: 150px;
-    height: 150px;
+    width: 9.375rem;
+    height: 9.375rem;
     display: block;
     margin: 0 auto;
   }
@@ -205,7 +207,7 @@ li:hover {
     margin-top: 1rem;
   }
   .nome {
-    font-size: 24px;
+    font-size: 1.5rem;
   }
   .cargo {
     width: inherit;
@@ -219,7 +221,7 @@ li:hover {
   }
   /* centralizar considerando o tamanho do icone */
   .numeroTelefone {
-    margin-right: 16px;
+    margin-right: 1rem;
   }
 
   .numeroTelefone::before {
@@ -245,6 +247,6 @@ li:hover {
   /* Botão e lista de menu */
 
   .listaOpc {
-    width: 200px;
+    width: 12.5rem;
   }
 }
