@@ -22,7 +22,6 @@ const Cards = ({ img, nome, cargo, numeroTelefone, email }) => {
           {/* Nome */}
           <h1 className={styles.nome}>{nome}</h1>
           {/* Cargo */}
-          <div className="teste"></div>
           <h3 className={styles.cargo}>{cargo}</h3>
           {/* Numero de Telefone */}
 
@@ -44,8 +43,8 @@ Cards.propTypes = {
   email: PropTypes.string.isRequired,
 };
 
-/* Valor Default */
-Cards.defaultTypes = {
+/* Valor Default caso esteja faltando algo */
+Cards.defaultProps = {
   nome: "Nome faltando",
   cargo: "Cargo faltando",
   numeroTelefone: "Telefone faltando",
