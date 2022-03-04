@@ -1,4 +1,6 @@
 import styles from "./Index.module.css";
+import PropTypes from "prop-types";
+/* importando o botão */
 import AtivarBotao from "./Botao";
 
 import React from "react";
@@ -31,6 +33,22 @@ const Cards = ({ img, nome, cargo, numeroTelefone, email }) => {
       </div>
     </div>
   );
+};
+
+/* Validação de valores */
+Cards.propTypes = {
+  nome: PropTypes.string.isRequired,
+  cargo: PropTypes.string.isRequired,
+  numeroTelefone: PropTypes.string.isRequired,
+  email: PropTypes.string.isRequired,
+};
+
+/* Valor Default */
+Cards.defaultTypes = {
+  nome: "Nome faltando",
+  cargo: "Cargo faltando",
+  numeroTelefone: "Telefone faltando",
+  email: "Email faltando",
 };
 
 export default Cards;
