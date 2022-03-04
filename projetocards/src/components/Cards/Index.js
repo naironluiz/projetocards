@@ -4,6 +4,7 @@ import PropTypes from "prop-types";
 import AtivarBotao from "./Botao";
 
 import React from "react";
+/* inserindo os valores */
 const Cards = ({ img, nome, cargo, numeroTelefone, email }) => {
   return (
     /* Container onde irão ficar todos os cartões */
